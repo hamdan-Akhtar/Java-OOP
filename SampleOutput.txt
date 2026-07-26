@@ -1,0 +1,150 @@
+========================================
+     OOP WEEK 1 - CALCULATOR DEMO      
+========================================
+
+--- Basic Operations ---
+10 + 5  = 15.0
+10 - 5  = 5.0
+10 x 5  = 50.0
+10 / 5  = 2.0
+
+--- Edge Case: Division by Zero ---
+ERROR: Cannot divide by zero.
+10 / 0  = 0.0
+
+--- Enhanced Operations ---
+10 % 3  = 1.0
+
+--- Edge Case: Modulus by Zero ---
+ERROR: Cannot take modulus by zero.
+10 % 0  = 0.0
+
+--- Power ---
+2 ^ 10  = 1024.0
+5 ^ 0   = 1.0
+
+--- Maximum and Minimum ---
+max(25, 75) = 75.0
+max(75, 25) = 75.0
+min(25, 75) = 25.0
+min(75, 25) = 25.0
+
+--- Average (Varargs) ---
+average(10,20,30,40,50) = 30.0
+average(100, 200)       = 150.0
+
+--- Edge Case: Average with No Arguments ---
+ERROR: No numbers provided for average.
+average() = 0.0
+
+--- Add Many Numbers (Varargs) ---
+addMany(1 to 10) = 55.0
+addMany(50,50,50) = 150.0
+
+========================================
+        CALCULATOR DEMO COMPLETE       
+========================================
+
+
+========================================
+        OOP WEEK 1 - CAR DEMO          
+========================================
+
+--- Starting Engines ---
+BMW: Engine STARTED.
+Tesla: Engine STARTED.
+
+--- Initial States ---
+BMW State:
+=============================
+Brand        : BMW
+Color        : Black
+Speed        : 0 km/h
+Engine On    : true
+Fuel Level   : 100%
+Gear         : 0
+Headlights   : false
+Turbo Active : false
+Odometer     : 0.0 km
+=============================
+
+Tesla State:
+=============================
+Brand        : Tesla
+Color        : Red
+Speed        : 0 km/h
+Engine On    : true
+Fuel Level   : 100%
+Gear         : 0
+Headlights   : false
+Turbo Active : false
+Odometer     : 0.0 km
+=============================
+
+--- BMW Driving ---
+BMW: Driving at 20 km/h | Gear: 2
+BMW: Driving at 40 km/h | Gear: 2
+BMW: Moving FAST at 80 km/h | Gear: 5
+BMW: Turning LEFT.
+BMW: Turning RIGHT.
+BMW: BEEP BEEP!
+
+--- BMW Turbo Mode ---
+BMW: TURBO MODE ACTIVATED! Speed: 160 km/h!
+
+--- Tesla Driving ---
+Tesla: Driving at 20 km/h | Gear: 2
+Tesla: Slowing down to 0 km/h | Gear: 0
+Tesla: Headlights ON.
+Tesla: Headlights OFF.
+
+--- Final States (Objects are Independent) ---
+BMW Final State:
+=============================
+Brand        : BMW
+Color        : Black
+Speed        : 160 km/h
+Engine On    : true
+Fuel Level   : 60%
+Gear         : 6
+Headlights   : false
+Turbo Active : true
+Odometer     : 2.0 km
+=============================
+
+Tesla Final State:
+=============================
+Brand        : Tesla
+Color        : Red
+Speed        : 0 km/h
+Engine On    : true
+Fuel Level   : 93%
+Gear         : 0
+Headlights   : false
+Turbo Active : false
+Odometer     : 0.5 km
+=============================
+
+--- Stopping BMW Engine ---
+BMW: Engine STOPPED.
+=============================
+Brand        : BMW
+Color        : Black
+Speed        : 0 km/h
+Engine On    : false
+Fuel Level   : 60%
+Gear         : 0
+Headlights   : false
+Turbo Active : false
+Odometer     : 2.0 km
+=============================
+
+--- Rule Test: Drive with Engine OFF ---
+BMW: Cannot drive - Engine is OFF!
+
+--- Rule Test: Turbo with Engine OFF ---
+BMW: Cannot activate turbo - Engine is OFF!
+
+========================================
+           CAR DEMO COMPLETE           
+========================================
